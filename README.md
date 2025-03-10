@@ -1,2 +1,4 @@
-# Portfolio Website
-Code for my personal portfolio website (currently in progress). 
+# Portfolio Website (In Progress)
+Code for my personal portfolio website. 
+
+Developed in React.JS
