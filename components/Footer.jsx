@@ -1,6 +1,7 @@
 import { assets } from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
+import { FaPhone } from 'react-icons/fa'
 
 const Footer = ({isDarkMode}) => {
   return (
@@ -10,7 +11,12 @@ const Footer = ({isDarkMode}) => {
 
         <div className='w-max flex items-center gap-2 mx-auto'>
             <Image src={isDarkMode ? assets.mail_icon_dark : assets.mail_icon} alt='' className='w-6'/>
-            greatstackdev@gmail.com
+            rumao@wisc.edu / ryanrumao4@gmail.com
+        </div>
+
+        <div className='w-max flex items-center gap-2 mx-auto'>
+            <FaPhone className='w-6'/>
+            +1 (920)-441-2135
         </div>
       </div>
 

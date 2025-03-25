@@ -9,7 +9,7 @@ const Projects = ({isDarkMode}) => {
     initial={{ opacity: 0 }}
     whileInView={{ opacity: 1 }}
     transition={{ duration: 1 }}
-    id='work' className='w-full px-[12%] py-10 scroll-mt-20'>
+    id='project' className='w-full px-[12%] py-10 scroll-mt-20'>
 
       <motion.h4 
       initial={{ y: -20, opacity: 0 }}
