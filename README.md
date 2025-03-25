@@ -10,7 +10,7 @@ Download Node - https://nodejs.org/en
 Clone the repository
 
 ```
-git clone https://github.com/ryan-24-7/my-portfolio
+git clone https://github.com/ryan-24-7/my-portfolio.git
 ```
 Navigate to the repository and install required packages
 
