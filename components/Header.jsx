@@ -31,8 +31,8 @@ const Header = () => {
         whileInView={{opacity: 1}}
         transition={{duration: 0.6, delay: 0.7}}
         className='max-w-2xl mx-auto font-Ovo'>
-        Computer Science and Data Science double major with
-        minors in Game Design and Entrepreneurship at the University of Wisconsin-Madison.
+        Double majoring in Computer Science & Data Science + <br />
+        Minors in Game Design & Entrepreneurship at the University of Wisconsin-Madison.
         </motion.p>
 
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>

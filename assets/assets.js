@@ -35,6 +35,10 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import docker from './docker.webp'
+import aws from './aws.png'
+import linux from './linux.jpeg'
+import gcp from './gcp.png'
 
 export const assets = {
     user_img,
@@ -73,7 +77,11 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    docker,
+    aws,
+    linux,
+    gcp
 };
 
 export const workData = [
@@ -107,11 +115,15 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'Python, Java, Javascript, R, C++, SQL' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: "B.S. in Computer Science and Data Science at University of Wisconsin" },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Framework/Libraries', description: 'React.JS, React Native, Flask, JUnit, PyTest, Pandas, Tensorflow, Scikit-Learn' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    { icon: assets.vscode, link: 'https://code.visualstudio.com/' },
+    { icon: assets.docker, link: 'https://www.docker.com/' },
+    { icon: assets.gcp, link: 'https://cloud.google.com/' },
+    { icon: assets.aws, link: 'https://aws.amazon.com/' },
+    { icon: assets.git, link: 'https://git-scm.com/' }
 ];
