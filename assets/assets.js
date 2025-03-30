@@ -6,10 +6,7 @@ import edu_icon_dark from './edu-icon-dark.png';
 import project_icon from './project-icon.png';
 import project_icon_dark from './project-icon-dark.png';
 import vscode from './vscode.png';
-import firebase from './firebase.png';
-import figma from './figma.png';
 import git from './git.png';
-import mongodb from './mongodb.png';
 import right_arrow_white from './right-arrow-white.png';
 import logo from './logo.png';
 import logo_dark from './logo_dark.png';
@@ -37,8 +34,10 @@ import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import docker from './docker.webp'
 import aws from './aws.png'
-import linux from './linux.jpeg'
 import gcp from './gcp.png'
+import puzzle from './puzzle.png'
+import puzzle_dark from './puzzle_dark.png'
+
 
 export const assets = {
     user_img,
@@ -49,10 +48,7 @@ export const assets = {
     project_icon,
     project_icon_dark,
     vscode,
-    firebase,
-    figma,
     git,
-    mongodb,
     right_arrow_white,
     logo,
     logo_dark,
@@ -80,8 +76,9 @@ export const assets = {
     right_arrow_bold_dark,
     docker,
     aws,
-    linux,
-    gcp
+    gcp,
+    puzzle,
+    puzzle_dark
 };
 
 export const workData = [
@@ -116,8 +113,8 @@ export const serviceData = [
 
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'Python, Java, Javascript, R, C++, SQL' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: "B.S. in Computer Science and Data Science at University of Wisconsin" },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Framework/Libraries', description: 'React.JS, React Native, Flask, JUnit, PyTest, Pandas, Tensorflow, Scikit-Learn' }
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Framework/Libraries', description: 'React.JS & React Native, Flask, JUnit, PyTest, Pandas, Tensorflow, Scikit-Learn' },
+    { icon: assets.puzzle, iconDark: assets.puzzle_dark, title: 'Interests', description: "AI/ML Technologies, Data Visualization, Web Development, Game Development" }
 ];
 
 export const toolsData = [
