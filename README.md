@@ -1,7 +1,8 @@
-# Portfolio Website (In Progress)
+# Portfolio Website 
+# Deployed - www.ryanrumao.com
 Code for my personal portfolio website. 
 
-Developed with Next.JS + Tailwind CSS (hopefully.)
+Developed with Next.JS
 
 # To use the Source Code for your own portfolio
 
