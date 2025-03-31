@@ -24,10 +24,6 @@ import menu_black from "./menu-black.png";
 import menu_white from "./menu-white.png";
 import close_black from "./close-black.png";
 import close_white from "./close-white.png";
-import web_icon from "./web-icon.png";
-import mobile_icon from "./mobile-icon.png";
-import ui_icon from "./ui-icon.png";
-import graphics_icon from "./graphics-icon.png";
 import right_arrow from "./right-arrow.png";
 import send_icon from "./send-icon.png";
 import right_arrow_bold from "./right-arrow-bold.png";
@@ -70,10 +66,6 @@ export const assets = {
   menu_white,
   close_black,
   close_white,
-  web_icon,
-  mobile_icon,
-  ui_icon,
-  graphics_icon,
   right_arrow,
   send_icon,
   right_arrow_bold,
@@ -92,25 +84,23 @@ export const assets = {
 
 export const workData = [
   {
-    title: "Frontend project",
-    description: "Web Design",
-    bgImage: "/work-1.png",
+    title: "Swipebop",
+    description: "Outfit Matching System.",
+    bgImage: "/swipebop.png",
+    link: "https://github.com/arushi-dodhia/SwipeBop"
   },
   {
-    title: "Geo based app",
-    description: "Mobile App",
-    bgImage: "/work-2.png",
+    title: "Mindgrove",
+    description: "AI Journalling Tool.",
+    bgImage: "/mindgrove.jpg",
+    link: "https://github.com/ryan-24-7/MindGrove"
   },
   {
-    title: "Photography site",
-    description: "Web Design",
-    bgImage: "/work-3.png",
-  },
-  {
-    title: "UI/UX designing",
-    description: "UI/UX Design",
-    bgImage: "/work-4.png",
-  },
+    title: "Badger Chat",
+    description: "Online Chatroom.",
+    bgImage: "/badger_chat.png",
+    link: "https://github.com/ryan-24-7/BadgerChat"
+  }
 ];
 
 export const serviceData = [
@@ -170,7 +160,7 @@ export const infoList = [
     iconDark: assets.project_icon_dark,
     title: "Framework/Libraries",
     description:
-      "React.JS & React Native, Flask, JUnit, PyTest, Pandas, Tensorflow, Scikit-Learn",
+      "React.JS & React Native, Next.JS, Flask, JUnit, PyTest, Pandas, Tensorflow, Scikit-Learn",
   },
   {
     icon: assets.puzzle,
