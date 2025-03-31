@@ -69,11 +69,6 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
             </a>
           </li>
           <li>
-            <a className="font-Ovo" href="#contact">
-              Contact me
-            </a>
-          </li>
-          <li>
             <a href="https://www.github.com/ryan-24-7/" className="font-Ovo">
               <FaGithub size={18} />
             </a>
@@ -151,7 +146,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           </li>
           <li>
             <a className="font-Ovo" onClick={closeMenu} href="#contact">
-              Contact me
+              Contact
             </a>
           </li>
           <li>

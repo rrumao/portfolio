@@ -25,7 +25,7 @@ import menu_white from "./menu-white.png";
 import close_black from "./close-black.png";
 import close_white from "./close-white.png";
 import right_arrow from "./right-arrow.png";
-import send_icon from "./send-icon.png";
+import send_icon from "./send-icon.webp";
 import right_arrow_bold from "./right-arrow-bold.png";
 import right_arrow_bold_dark from "./right-arrow-bold-dark.png";
 import docker from "./docker.webp";
@@ -86,18 +86,21 @@ export const workData = [
   {
     title: "Swipebop",
     description: "Outfit Matching System.",
+    info: "Developed for Amazon (Shopbop)",
     bgImage: "/swipebop.png",
     link: "https://github.com/arushi-dodhia/SwipeBop"
   },
   {
     title: "Mindgrove",
     description: "AI Journalling Tool.",
+    info: "Runner Up @ MadData 2024",
     bgImage: "/mindgrove.jpg",
     link: "https://github.com/ryan-24-7/MindGrove"
   },
   {
     title: "Badger Chat",
-    description: "Online Chatroom.",
+    description: "Online Chatroom Messenger.",
+    info: "Developed for CS571: Building User Interfaces",
     bgImage: "/badger_chat.png",
     link: "https://github.com/ryan-24-7/BadgerChat"
   }
@@ -128,14 +131,14 @@ export const serviceData = [
   {
     icon: assets.skunkworks,
     title: "Informatics Skunkworks",
-    position: "Undergraduate Research Scholar",
+    position: "Research Scholar",
     time: "Sep 2024 - Feb 2025",
     desc: "Dr. Shamya Karumbaiah.\n Finetuning and testing LLM Models to achieve high ROUGE scores (0.6+) for summarization in English, Spanish and Spanglish using Python.\n Leading discussions with a sub-group focusing on summarization to refine strategies, evaluate model outputs, and enhance performance.",
   },
   {
     icon: assets.avraamidou,
     title: "Avraamidou Research Lab",
-    position: "Undergraduate Research Scholar",
+    position: "Research Scholar",
     time: "Aug 2024 - Jan 2025",
     desc: "Dr. Styliani Avraamidou.\n Helped develop supply chain models using mixed-integer multi-scale optimization to identify energy infrastructure for a zero-carbon future in Python and Julia.\n Assisted on research focusing on net-zero carbon transportation for heavy-duty vehicles in the Midwest using hydrogen as an alternative source of fuel.",
   },
@@ -143,7 +146,7 @@ export const serviceData = [
     icon: assets.edu_icon,
     dark: assets.edu_icon_dark,
     title: "Education",
-    position: "B.S at UW-Madison",
+    position: "Undergraduate at UW-Madison",
     time: "Sep 2021 - May 2025",
     desc: "Bachelor of Science: Computer Science, Data Science.\n Minor: Game Design, Entrepreneurship. \n GPA - 3.92 / 4.00. \n 6x Dean's List (2021 - 2024). \n Relevant Coursework: Data Structures, Algorithms, Artificial Intelligence, Big Data Systems, UI/UX Design, Database Management Systems, Machine Organization & Programming, Discrete Mathematics, Linear Algebra. ",
   },
