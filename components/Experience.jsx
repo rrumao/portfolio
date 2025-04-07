@@ -6,18 +6,18 @@ import { motion, AnimatePresence } from "motion/react";
 const Experience = ({ isDarkMode }) => {
   const [selected, setSelected] = useState(null);
 
-  useEffect(() => {
-    if (selected) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "auto";
-    }
+  // useEffect(() => {
+  //   if (selected) {
+  //     document.body.style.overflow = "hidden";
+  //   } else {
+  //     document.body.style.overflow = "auto";
+  //   }
 
-    // Cleanup
-    return () => {
-      document.body.style.overflow = "auto";
-    };
-  }, [selected]);
+  //   // Cleanup
+  //   return () => {
+  //     document.body.style.overflow = "auto";
+  //   };
+  // }, [selected]);
 
   return (
     <>
@@ -109,7 +109,7 @@ const Experience = ({ isDarkMode }) => {
               <h1 className="text-xl font-bold mb-4 dark:text-white">
                 {selected.title}
               </h1>
-              <span className="absolute right-5 font-bold dark:text-white">{selected.time}</span>
+              <span className="absolute right-5 font-bold dark:text-white hidden sm:inline">{selected.time}</span>
               <h3 className="text-gray-700 font-bold italic dark:text-white">
                 {selected.position}
               </h3>

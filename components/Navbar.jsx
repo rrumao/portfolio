@@ -74,7 +74,10 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/ryan-rumao-9aa7b021b/" className="font-Ovo">
+            <a
+              href="https://www.linkedin.com/in/ryan-rumao-9aa7b021b/"
+              className="font-Ovo"
+            >
               <FaLinkedin size={18} />
             </a>
           </li>
@@ -88,18 +91,6 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
               className="w-6"
             />
           </button>
-
-          <a
-            href="#contact"
-            className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 font-Ovo dark:border-white/50"
-          >
-            Contact
-            <Image
-              src={isDarkMode ? assets.arrow_icon_dark : assets.arrow_icon}
-              alt=""
-              className="w-3"
-            />
-          </a>
 
           <button className="block md:hidden ml-3" onClick={openMenu}>
             <Image
@@ -145,17 +136,15 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
             </a>
           </li>
           <li>
-            <a className="font-Ovo" onClick={closeMenu} href="#contact">
-              Contact
-            </a>
-          </li>
-          <li>
             <a href="https://www.github.com/ryan-24-7/" className="font-Ovo">
               <FaGithub size={18} />
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/ryan-rumao-9aa7b021b/" className="font-Ovo">
+            <a
+              href="https://www.linkedin.com/in/ryan-rumao-9aa7b021b/"
+              className="font-Ovo"
+            >
               <FaLinkedin size={18} />
             </a>
           </li>
