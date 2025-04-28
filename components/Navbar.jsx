@@ -40,9 +40,9 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
             className='w-28 alt="" cursor-pointer mr-14'
           />
         </a>
-
+        
         <ul
-          className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${
+          className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 ${
             isScroll
               ? ""
               : "bg-white shadow-sm bg-opacity-50 dark:border dark:border-white/50 dark:bg-transparent"
@@ -69,7 +69,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
             </a>
           </li>
           <li>
-            <a href="https://www.github.com/ryan-24-7/" className="font-Ovo">
+            <a href="https://www.github.com/rrumao/" className="font-Ovo">
               <FaGithub size={18} />
             </a>
           </li>
@@ -136,7 +136,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
             </a>
           </li>
           <li>
-            <a href="https://www.github.com/ryan-24-7/" className="font-Ovo">
+            <a href="https://www.github.com/rrumao/" className="font-Ovo">
               <FaGithub size={18} />
             </a>
           </li>

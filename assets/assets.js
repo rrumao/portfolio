@@ -88,21 +88,21 @@ export const workData = [
     description: "Outfit Matching System.",
     info: "Developed for Amazon (Shopbop)",
     bgImage: "/swipebop.png",
-    link: "https://github.com/arushi-dodhia/SwipeBop"
+    link: "https://github.com/rrumao/swipebop"
   },
   {
     title: "Mindgrove",
     description: "AI Journalling Tool.",
     info: "Runner Up @ MadData 2024",
     bgImage: "/mindgrove.jpg",
-    link: "https://github.com/ryan-24-7/MindGrove"
+    link: "https://github.com/rrumao/mindgrove"
   },
   {
     title: "Badger Chat",
     description: "Online Chatroom Messenger.",
     info: "Developed for CS571: Building User Interfaces",
     bgImage: "/badger_chat.png",
-    link: "https://github.com/ryan-24-7/BadgerChat"
+    link: "https://github.com/rrumao/badger-chat"
   }
 ];
 
