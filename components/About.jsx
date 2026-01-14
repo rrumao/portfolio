@@ -44,7 +44,7 @@ const About = ({ isDarkMode }) => {
             className="w-64 sm:w-80 rounded-3xl max-w-none flex-shrink-0"
           >
             <Image
-              src={assets.user_img}
+              src={assets.profile_img}
               alt="user"
               className="w-full rounded-3xl"
             />
@@ -63,7 +63,7 @@ const About = ({ isDarkMode }) => {
             </p>
             <p className="mb-8 font-Ovo">
               Experienced in developing full-stack applications and complex
-              projects using React.JS, Python, and SQL while leveraging tools like Docker and GCP, AWS
+              projects using React.JS, Python, Tableau and SQL while leveraging tools like Docker and GCP, AWS
               for scalable solutions.
             </p>
 

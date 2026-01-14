@@ -11,28 +11,28 @@ const Header = () => {
       whileInView={{scale: 1}}
       transition={{duration: 0.8, type: 'spring', stiffness: 100}}
       >
-        <Image src={assets.profile_img} alt='' className='rounded-full w-32'/>
+        <Image src={assets.rrr41} alt='' className='rounded w-32'/>
       </motion.div>
       <motion.h3 
       initial={{y: -20, opacity: 0}}
       whileInView={{y: 0, opacity: 1}}
       transition={{duration: 0.6, delay: 0.3}}
       className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo'>
-            Hi! I'm Ryan Rumao</motion.h3>
+            Ryan Rumao</motion.h3>
     <motion.h1 
     initial={{y: -30, opacity: 0}}
     whileInView={{y: 0, opacity: 1}}
     transition={{duration: 0.8, delay: 0.5}}
-    className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>
-        software developer and data analyst.</motion.h1>
+    className='text-3xl sm:text-6xl lg:text-[50px] font-Ovo'>
+        software developer + data analyst.</motion.h1>
 
         <motion.p
         initial={{opacity: 0}}
         whileInView={{opacity: 1}}
         transition={{duration: 0.6, delay: 0.7}}
         className='max-w-2xl mx-auto font-Ovo'>
-        Double majoring in Computer Science & Data Science + <br />
-        Minors in Game Design & Entrepreneurship at the University of Wisconsin-Madison.
+        Master of Science in Quantitiative Management: Business Analytics <br />
+        Duke University Fuqua School of Business
         </motion.p>
 
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>

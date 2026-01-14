@@ -38,6 +38,10 @@ import uw_cs from "./uw-cs.jpeg";
 import tops_labs from "./tops_labs.png";
 import skunkworks from './skunkworks.png';
 import avraamidou from './avraamidou.png';
+import rrr41 from './rrr41.jpg';
+import badgers from './badgers.png';
+import duke from './duke.png';
+import fuqua from './fuqua.jpeg';
 
 export const assets = {
   user_img,
@@ -79,7 +83,11 @@ export const assets = {
   uw_cs,
   tops_labs,
   skunkworks,
-  avraamidou
+  avraamidou,
+  rrr41,
+  badgers,
+  duke,
+  fuqua
 };
 
 export const workData = [
@@ -108,10 +116,31 @@ export const workData = [
 
 export const serviceData = [
   {
+    icon: assets.fuqua,
+    title: 'Duke Fuqua School of Business',
+    position: 'Research Assistant',
+    time: 'Jan 2025 - Present',
+    desc: 'Assisting Dr. Ryan Burk on a sports analytics project for the Duke Softball Team, providing meaningful insights using Tableau and Plotly Dash in Python.'
+  },
+  {
+    icon: assets.fuqua,
+    title: 'Duke Fuqua School of Business',
+    position: 'Teaching Assistant',
+    time: 'Oct 2025 - Present',
+    desc: 'Selected TA for Business Analytics and Statistics courses, supporting MBA and MS students.\n Conduct online office hours and one-on-one tutoring sessions to reinforce core analytics and statistical concepts and assist with applied problem-solving.\n Evaluate assignments and provide constructive feedback to enhance students’ analytical and quantitative reasoning skills.'
+  },
+  {
+    icon: assets.duke,
+    title: "Master's Degree",
+    position: "Duke University (Fuqua)",
+    time: "Jul 2025 - May 2026",
+    desc: "Master of Science in Quantitative Management: Business Analytics.\n Relevant Coursework: Data Visualization, Machine Learning for Business, Big Data Analytics, Optimization Methods, Statistical Modeling and Inference, Data Mining and Predictive Analytics.",
+  },
+  {
     icon: assets.amazon_logo,
     title: "Amazon - Capstone",
-    position: "Full-Stack Developer",
     time: "Jan 2025 - Current",
+    position: "Full-Stack Developer",
     desc: "Developing a Tinder-like outfit matching application for Amazon (Shopbop).\n Building core functionality including user authentication, swipe-based item selection, and dynamic outfit assembly using React.js, Flask, AWS (Cognito, Lambda and DynamoDB).\n Leading a team of 5, hosting weekly sprints and daily stand-ups, ensuring a dedicated taskforce using the Agile Framework.",
   },
   {
@@ -143,9 +172,8 @@ export const serviceData = [
     desc: "Dr. Styliani Avraamidou.\n Helped develop supply chain models using mixed-integer multi-scale optimization to identify energy infrastructure for a zero-carbon future in Python and Julia.\n Assisted on research focusing on net-zero carbon transportation for heavy-duty vehicles in the Midwest using hydrogen as an alternative source of fuel.",
   },
   {
-    icon: assets.edu_icon,
-    dark: assets.edu_icon_dark,
-    title: "Education",
+    icon: assets.badgers,
+    title: "Bachelor's Degree",
     position: "Undergraduate at UW-Madison",
     time: "Sep 2021 - May 2025",
     desc: "Bachelor of Science: Computer Science, Data Science.\n Minor: Game Design, Entrepreneurship. \n GPA - 3.92 / 4.00. \n 6x Dean's List (2021 - 2024). \n Relevant Coursework: Data Structures, Algorithms, Artificial Intelligence, Big Data Systems, UI/UX Design, Database Management Systems, Machine Organization & Programming, Discrete Mathematics, Linear Algebra. ",
@@ -163,7 +191,7 @@ export const infoList = [
     iconDark: assets.project_icon_dark,
     title: "Framework/Libraries",
     description:
-      "React.JS & React Native, Next.JS, Flask, JUnit, PyTest, Pandas, Tensorflow, Scikit-Learn",
+      "React.JS & React Native, Next.JS, Flask, JUnit, PyTest, Pandas, PyTorch, Tensorflow, Scikit-Learn",
   },
   {
     icon: assets.puzzle,
